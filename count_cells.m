@@ -17,7 +17,7 @@ function [numCells,labeled_image] = count_cells (image)
     IBright = imclose(IBright, strel('disk',20)); % Fills holes
 
     %% Watershed Segmentation (Separate Touching Cells)
-    D = -bwdist(~IBright); % First inverts the image, so it focusses on the background. Then it peforms bwdist, which tells you how far a pixel is from the closest background pixel. Then it becomes negative. Pixels in the center of blobs are very negative, those around the edges are slightly negative, and those fully in the background are very small. 
+    D = -bwdist(~IBright); % First inverts the image, so it focusses on the background. Then it performs bwdist, which tells you how far a pixel is from the closest background pixel. Then it becomes negative. Pixels in the center of blobs are very negative, those around the edges are slightly negative, and those fully in the background are very small. 
     L = watershed(D); % Applies the watershed algorithm, which starts from identified minima (center of blobs) and works out until the boundary of two blobs meet
     IBright(L==0) = 0; % Removes the watershed identified boundaries from the image
 

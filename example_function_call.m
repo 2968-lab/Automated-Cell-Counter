@@ -1,4 +1,4 @@
-% This script is an example funciton call of the count_cells funciton
+% This script is an example function call of the count_cells function
 
 clear; clc; close all
 
@@ -12,15 +12,15 @@ image = imread(image_name); % Load the image as a variable
 [num_cells,labeled_image] = count_cells(image);
 
 %% Output
-% Dipslay the original image
+% Display the original image
 figure
 imshow(image)
 title("Original Image")
 
-% Diplay the outputted, labeled image
+% Display the outputted, labeled image
 figure
 imshow(labeled_image)
-title("Image with Overlayed Cell Locations")
+title("Image with Overlaid Cell Locations")
 
 % Display number of cells
 disp("The number of cells in " + image_name + " is " + num_cells)
