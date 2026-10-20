@@ -11,14 +11,14 @@ The main file of this repository is "count_cells.m". This file defines the MATLA
 # Example
 Here is an example of the purpose and function of each operation performed on an image in the "count_cells.m" pipeline, using "example_image.JPG":
 
-![Initial Image](Image_Pipeline_Examples/Figure 1.png)
-![Grayscale](Image_Pipeline_Examples/Figure 2.png)
-![Adaptive Threshold](Image_Pipeline_Examples/Figure 3.png)
-![Smoothed Image](Image_Pipeline_Examples/Figure 4.png)
-![Remove Small Noise](Image_Pipeline_Examples/Figure 5.png)
-![Dialate and Connect Fragments](Image_Pipeline_Examples/Figure 6.png)
-![Separate Cells](Image_Pipeline_Examples/Figure 7.png)
-![Cell Count Result](Image_Pipeline_Examples/Figure 8.png)
+![Initial Image](Image_Pipeline_Examples/Figure_1.png)
+![Grayscale](Image_Pipeline_Examples/Figure_2.png)
+![Adaptive Threshold](Image_Pipeline_Examples/Figure_3.png)
+![Smoothed Image](Image_Pipeline_Examples/Figure_4.png)
+![Remove Small Noise](Image_Pipeline_Examples/Figure_5.png)
+![Dialate and Connect Fragments](Image_Pipeline_Examples/Figure_6.png)
+![Separate Cells](Image_Pipeline_Examples/Figure_7.png)
+![Cell Count Result](Image_Pipeline_Examples/Figure_8.png)
 
 
 # Limitations
